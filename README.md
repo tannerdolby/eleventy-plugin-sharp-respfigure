@@ -114,8 +114,8 @@ you can use the paired shortcode to transform multiple images at build-time into
 
 | Parameter | Type | Description |
 | ------    | ------- | -------     |
-| src       | String | The filename for an image. |
-| alt       | String | A text description of the image. |
+| src  | String | The filename for an image. |
+| alt  | String | A text description of the image. |
 | imgDir | String | The directory where the image file is located. |
 | caption | String | The figure caption text. |
 | className | String | The classname for `<figure>`. |
