@@ -1,6 +1,6 @@
 {
-  "name": "eleventy-plugin-resp-figure",
-  "version": "1.0.1",
+  "name": "eleventy-plugin-sharp-respfigure",
+  "version": "1.0.2",
   "description": "An Eleventy paired shortcode which uses Sharp to create responsive image markup at build-time and generates <picture> and <figure> tags.",
   "main": ".eleventy.js",
   "dependencies": {
