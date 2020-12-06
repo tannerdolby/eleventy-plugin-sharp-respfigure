@@ -122,7 +122,9 @@ you can use the paired shortcode to transform multiple images into responsive im
 | widthData    | The desired image widths and `media` conditions. |
 
 ## Limitations
-The paired shortcode only supports up to 4 widths specified in the width data parameter. The utility will only generate transformed images for the number of widths specified. If you specify only one width and media argument to `widthData` the shortcode will only generate 1 transformed `.webp` and `.jpg` image to be injected into `<picture>` along with the fallback `<img>` and `<figure>` & `<figcaption>`.
+The paired shortcode currently supports up to 4 widths specified in the width data parameter. The utility will only generate transformed images for the number of widths specified. 
+
+If you specify only one width and media argument to `widthData` parameter, the shortcode will only generate 1 transformed `.webp` and `.jpg` image to be injected into `<picture>` along with the fallback `<img>` and `<figure>` & `<figcaption>`.
 
 ## Notes
 - Use `./` when declaring the image directory parameter as Sharp expects this.
