@@ -1,0 +1,27 @@
+{
+  "name": "eleventy-plugin-resp-figure",
+  "version": "1.0.0",
+  "description": "An Eleventy paired shortcode which uses Sharp to create responsive image markup at build-time and generates <figure> tags.",
+  "main": ".eleventy.js",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "sharp": "^0.26.3"
+  },
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eleventy",
+    "11ty",
+    "figure",
+    "responsive-image"
+  ],
+  "author": {
+    "name": "Tanner Dolby",
+    "email": "tannercdolby@gmail.com",
+    "url": "https://github.com/tannerdolby"
+  },
+  "license": "MIT"
+}
