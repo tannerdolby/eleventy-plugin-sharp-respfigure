@@ -8,10 +8,10 @@ npm install eleventy-plugin-sharp-respfigure
 ```
 Then add it to your [Eleventy Config](https://www.11ty.dev/docs/config/) file:
 ```js
-const respimg = require("eleventy-plugin-sharp-respfigure");
+const respfigure = require("eleventy-plugin-sharp-respfigure");
 
 module.exports = (eleventyConfig) => {
-    eleventyConfig.addPlugin(respimg);
+    eleventyConfig.addPlugin(respfigure);
 }
 ```
 
