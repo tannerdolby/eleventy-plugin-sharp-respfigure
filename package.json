@@ -27,7 +27,8 @@
     "eleventy",
     "11ty",
     "figure",
-    "responsive-image"
+    "responsive-image",
+    "images"
   ],
   "author": {
     "name": "Tanner Dolby",
