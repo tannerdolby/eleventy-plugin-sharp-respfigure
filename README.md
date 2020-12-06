@@ -112,7 +112,7 @@ you can use the paired shortcode to transform multiple images at build-time into
 
 ## Paired shortcode options
 
-| Parameter | type | Description |
+| Parameter | Type | Description |
 | ------    | ------- | -------     |
 | src       | String | The filename for an image. |
 | alt       | String | A text description of the image. |
