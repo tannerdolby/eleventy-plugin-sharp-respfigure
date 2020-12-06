@@ -95,7 +95,7 @@ If you have global JSON data stored in `data.json` which is an array of objects 
     }
 ]
 ```
-you can use the paired shortcode to transform multiple images into responsive image markup using a `for` loop like this:
+you can use the paired shortcode to transform multiple images at build-time into responsive image markup using a `for` loop like this:
 
 ```js
 {% for image in data %}
