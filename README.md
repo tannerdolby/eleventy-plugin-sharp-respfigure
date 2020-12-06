@@ -61,8 +61,8 @@ If you have global JSON data stored in `data.json` which is an array of objects 
 [
     {
         "src": "car.jpg",
-        "imgDir": "./images/",
         "alt": "Photo of a car",
+        "imgDir": "./images/",
         "caption": "Figure caption text",
         "className": "carClass",
         "widths": {
@@ -78,8 +78,8 @@ If you have global JSON data stored in `data.json` which is an array of objects 
     },
     {
         "src": "flower.jpg",
-        "imgDir": "./images/",
         "alt": "Photo of a flower",
+        "imgDir": "./images/",
         "caption": "Figure caption text",
         "className": "flowerClass",
         "widths": {
@@ -117,7 +117,7 @@ you can use the paired shortcode to transform multiple images into responsive im
 | src       | The filename for an image. |
 | alt       | A text description of the image. |
 | imgDir | The directory where the image file is located. |
-| figCaption | The figure caption text. |
+| caption | The figure caption text. |
 | className | The classname for `<figure>`. |
 | widthData    | The desired image widths and `media` conditions. |
 
@@ -131,7 +131,6 @@ The paired shortcode only supports up to 4 widths specified in the width data pa
 
 ## TODO
 - [ ] Allow for more than 4 widths to be specified.
-- [ ] Make the widths parameter an array of values rather than an object.
 
 ## Other Responsive Image Plugins
 - [eleventy-img](https://github.com/11ty/eleventy-img)
