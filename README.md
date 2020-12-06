@@ -99,27 +99,27 @@ you can use the paired shortcode to transform multiple images into responsive im
 
 ```js
 {% for image in data %}
-    {% respimg 
+    {% respfigure 
         image.src, 
         image.alt, 
         image.imgDir,
         image.caption, 
         image.className,
         image.widths 
-    %}{% endrespimg %}
+    %}{% endrespfigure %}
 {% endfor %}
 ```
 
 ## Paired shortcode options
 
-| Parameter | Description |
-| ------    | -------     |
-| src       | The filename for an image. |
-| alt       | A text description of the image. |
-| imgDir | The directory where the image file is located. |
-| caption | The figure caption text. |
-| className | The classname for `<figure>`. |
-| widthData    | The desired image widths and `media` conditions. |
+| Parameter | type | Description |
+| ------    | ------- | -------     |
+| src       | `String` | The filename for an image. |
+| alt       | `String` | A text description of the image. |
+| imgDir | `String` | The directory where the image file is located. |
+| caption | `String` | The figure caption text. |
+| className | `String` | The classname for `<figure>`. |
+| widthData | `Object` | The desired image widths and `media` conditions. |
 
 ## Limitations
 The paired shortcode currently supports up to 4 widths specified in the width data parameter. The utility will only generate transformed images for the number of widths specified. 
