@@ -114,12 +114,12 @@ you can use the paired shortcode to transform multiple images at build-time into
 
 | Parameter | type | Description |
 | ------    | ------- | -------     |
-| src       | `String` | The filename for an image. |
-| alt       | `String` | A text description of the image. |
-| imgDir | `String` | The directory where the image file is located. |
-| caption | `String` | The figure caption text. |
-| className | `String` | The classname for `<figure>`. |
-| widthData | `Object` | The desired image widths and `media` conditions. |
+| src       | String | The filename for an image. |
+| alt       | String | A text description of the image. |
+| imgDir | String | The directory where the image file is located. |
+| caption | String | The figure caption text. |
+| className | String | The classname for `<figure>`. |
+| widthData | Object | The desired image widths and `media` conditions. |
 
 ## Limitations
 The paired shortcode currently supports up to 4 widths specified in the width data parameter. The utility will only generate transformed images for the number of widths specified. 
