@@ -25,6 +25,7 @@
   },
   "keywords": [
     "eleventy",
+    "eleventy-plugin",
     "11ty",
     "figure",
     "responsive-image",
